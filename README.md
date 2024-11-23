@@ -53,8 +53,6 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes ele
    mvn clean install
 
 3. **Ejecutar la aplicación**  
-   ```
-   java -jar target/sistema-biblioteca-0.0.1-SNAPSHOT.jar
 
 
 
