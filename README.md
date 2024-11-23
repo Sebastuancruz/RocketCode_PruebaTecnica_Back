@@ -41,3 +41,21 @@ Antes de ejecutar el proyecto, asegúrate de tener instalados los siguientes ele
    ```bash
    git clone https://github.com/tu-usuario/sistema-biblioteca.git
    cd sistema-biblioteca
+
+2. **Configurar la abse de datos**  
+   ```
+   spring.datasource.url=jdbc:postgresql://localhost:5432/nombre_base_datos
+   spring.datasource.username=tu_usuario
+   spring.datasource.password=tu_contraseña
+
+2. **Compilar el proyecto**  
+   ```
+   mvn clean install
+
+3. **Ejecutar la aplicación**  
+   ```
+   java -jar target/sistema-biblioteca-0.0.1-SNAPSHOT.jar
+
+
+
+
